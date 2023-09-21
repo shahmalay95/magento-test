@@ -1,0 +1,28 @@
+## Indcluded Test Cases ##
+
+- Positive Test Case - Valid Sign-In:
+
+  Enter a valid username and password.
+  Click the Sign In button.
+  Verify that the user is successfully signed in.
+  Assertion: Check for a welcome message or the appearance of the user dashboard.
+
+- Negative Test Case - Invalid Username or Password:
+
+  Enter an invalid username or password.
+  Click the Sign In button.
+  Verify that an error message is displayed.
+  Assertion: Check for the specific error message.
+
+## Excluded Test Cases ##
+
+- Negative Test Case - Empty Username or Password:
+
+  Leave the username or password field empty.
+  Click the Sign In button.
+  Verify that an error message is displayed.
+  Assertion: Check for the specific error message related to empty fields.
+
+- Negative Test Case - Account Lockout:
+
+  Account lockout after multiple failed login attempts is a security feature that might not be tested in every scenario. It depends on project requirements.

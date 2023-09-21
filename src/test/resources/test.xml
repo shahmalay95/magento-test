@@ -1,0 +1,21 @@
+<suite name = "testGoogleSearchInDiffBrowsers">
+    <test name = "testInFirefox">
+
+        <parameter name = "browser" value="firefox"/>
+
+        <classes>
+            <class name = "magento.DataDrivenTest"  />
+        </classes>
+
+    </test>
+    <test name = "testInChrome">
+
+        <parameter name = "browser" value="chrome"/>
+
+        <classes>
+            <class name = "magento.DataDrivenTest" />
+        </classes>
+
+    </test>
+
+</suite>
