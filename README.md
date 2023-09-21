@@ -45,10 +45,10 @@ Before you can run the automated tests, make sure you have the following prerequ
 
 ## Running Tests
 
-To run the automated tests on your machine, open the repository in the IDE (eg: ECLIPSE) and select the testng.xml file :
+To run the automated tests on your machine, open the repository in the IDE (eg: ECLIPSE):
 
 ```bash
-1. Run the command in the Terminal: maven test
+1. Run the Maven command in the Terminal: maven test
 OR
 1. Create Maven Run/Debug Configuration
 2. Select Maven command - test
