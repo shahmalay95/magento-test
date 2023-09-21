@@ -45,7 +45,7 @@ Before you can run the automated tests, make sure you have the following prerequ
 
 ## Running Tests
 
-To run the automated tests on your machine, open the repository in the IDE (eg: ECLIPSE):
+To run the automated tests on your machine, follow the steps below:
 
 ```bash
 1. Run the Maven command in the Terminal: maven test
